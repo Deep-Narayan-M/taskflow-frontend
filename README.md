@@ -76,26 +76,31 @@ Backend     : TaskFlow server running
 <summary><b>Development Setup</b></summary>
 
 1. Create `.env` file:
+
 ```bash
 VITE_API_URL=http://localhost:3001/api
 ```
+
 </details>
 
 <details>
 <summary><b>Production Setup</b></summary>
 
 1. Create `.env.production`:
+
 ```bash
 VITE_API_URL=https://your-render-backend.onrender.com/api
 ```
+
 2. For Vercel deployment:
    - Add `VITE_API_URL` in project settings
    - Use your Render backend URL + `/api`
-</details>
+   </details>
 
 ### 🚀 Quick Start
 
 1. **Clone & Install**
+
    ```bash
    git clone <repository-url>
    cd todo-client
@@ -103,6 +108,7 @@ VITE_API_URL=https://your-render-backend.onrender.com/api
    ```
 
 2. **Set Environment**
+
    ```bash
    # Create .env file as shown in Environment Setup
    ```
@@ -125,6 +131,7 @@ npm run build
 # Preview build
 npm run preview
 ```
+
 </details>
 
 <details>
@@ -171,13 +178,12 @@ src/
 - Mobile responsiveness
 </details>
 
-<details>
+<!-- <details>
 <summary><b>🚧 In Progress</b></summary>
 
-- Loading states implementation
 - Additional user feedback
 - Performance optimizations
-</details>
+</details> -->
 
 ### 👥 Contributing
 
