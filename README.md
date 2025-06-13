@@ -1,4 +1,4 @@
-# TaskFlow Client 🚀
+# TaskFlow Frontend 🚀
 
 A modern React-based task management application built with Vite and Tailwind CSS, featuring elegant UI, authentication, and real-time task management.
 
