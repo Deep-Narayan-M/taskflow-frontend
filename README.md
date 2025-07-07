@@ -102,7 +102,7 @@ VITE_API_URL=https://your-render-backend.onrender.com/api
 1. **Clone & Install**
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Deep-Narayan-M/taskflow-frontend.git
    cd todo-client
    npm install
    ```
