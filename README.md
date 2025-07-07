@@ -83,20 +83,6 @@ VITE_API_URL=http://localhost:3001/api
 
 </details>
 
-<details>
-<summary><b>Production Setup</b></summary>
-
-1. Create `.env.production`:
-
-```bash
-VITE_API_URL=https://your-render-backend.onrender.com/api
-```
-
-2. For Vercel deployment:
-   - Add `VITE_API_URL` in project settings
-   - Use your Render backend URL + `/api`
-   </details>
-
 ### 🚀 Quick Start
 
 1. **Clone & Install**
@@ -119,34 +105,6 @@ VITE_API_URL=https://your-render-backend.onrender.com/api
    # 🌐 App runs at http://localhost:5173
    ```
 
-### 📦 Build & Deploy
-
-<details>
-<summary><b>Build for Production</b></summary>
-
-```bash
-# Ensure .env.production is configured
-npm run build
-
-# Preview build
-npm run preview
-```
-
-</details>
-
-<details>
-<summary><b>Deploy to Vercel</b></summary>
-
-1. Push code to GitHub
-2. Create new project in Vercel
-3. Connect repository
-4. Add environment variables:
-   ```
-   VITE_API_URL=https://your-render-backend.onrender.com/api
-   ```
-5. Deploy!
-</details>
-
 ### 📁 Project Structure
 
 ```
@@ -167,16 +125,14 @@ src/
 
 ### 📊 Project Status
 
-<details>
-<summary><b>✅ Completed Features</b></summary>
-
+<b>✅ Completed Features</b>
 - Authentication system
 - Task management functionality
 - UI/UX implementation
 - Error handling
 - Optimistic updates
 - Mobile responsiveness
-</details>
+
 
 <!-- <details>
 <summary><b>🚧 In Progress</b></summary>
